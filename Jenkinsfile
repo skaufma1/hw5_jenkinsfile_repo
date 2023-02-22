@@ -26,7 +26,7 @@ pipeline {
         }
         stage('Branch'){
             steps {
-                echo 'Branch is: main'
+                echo 'Branch is: sub_branch'
             }
         }
     }
